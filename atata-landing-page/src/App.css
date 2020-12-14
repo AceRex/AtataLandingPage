@@ -10,3 +10,17 @@ body{
 .container{
   max-width: 100%;
 }
+.scroll-Top{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #0A8B09;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #fff;
+  height: 6%;
+  width: 12%;
+  cursor: pointer;
+}
