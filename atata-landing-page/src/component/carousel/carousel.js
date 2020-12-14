@@ -20,7 +20,7 @@ export default function carousel() {
             <span className='text'>One Big Africa Art Market</span>
         </TextLoop>{" "}
         <TextLoop interval="5000">
-            <span className='text text-mobile'>Market for African Fashion</span>            
+            <span className='text text-mobile'><p>African Artworks </p>and Handicrafts Home</span>            
             <span>
               <img src={Img2} className="sculp-img" />
             </span><span className='text'>Animal Skin at ease</span>            

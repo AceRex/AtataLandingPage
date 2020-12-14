@@ -3,14 +3,6 @@ import { MenuItems } from "./MenuItems";
 import './Navbar.css'
 import Logo from '../headerLogo.png'
 import {FaTimes, FaBars} from 'react-icons/fa'
-import Scroll from 'react-scroll';
-
-
-var Link = Scroll.Link;
-var Element = Scroll.Element;
-var Events = Scroll.Events;
-var scroll = Scroll.animateScroll;
-var scrollSpy = Scroll.scrollSpy;
 
 
 class Navbar extends Component {
@@ -25,26 +17,6 @@ handleClick = () => {
   this.setState({clicked: !this.state.clicked})
 }
 
-componentDidMount() {
-
-  Events.scrollEvent.register('begin', function () {
-    console.log("begin", arguments);
-  });
-
-  Events.scrollEvent.register('end', function () {
-    console.log("end", arguments);
-  });
-
-  scrollSpy.update();
-
-}
-scrollToTop() {
-  scroll.scrollToTop();
-}
-componentWillUnmount() {
-  Events.scrollEvent.remove('begin');
-  Events.scrollEvent.remove('end');
-}
 
 
   render() {
