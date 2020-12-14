@@ -1,0 +1,144 @@
+.about-contain {
+    padding: 6px 0;
+    max-width: 100%;
+    margin: auto;
+    background-color: #FF871A;
+    background-image: url('./5fd2c486d34d7.jpg');
+    background-blend-mode: screen;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 300px;
+}
+
+.abt-contain {
+    width: 70%;
+    margin: auto;
+    height: 615px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sd-left {
+    width: 45%;
+    padding: 20px;
+}
+
+.sd-left small {
+    color: #fff;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sd-left p {
+    font-size: 70px;
+    font-weight: 900;
+    color: #000;
+}
+
+.sd-left .sd-left-text {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.sd-right {
+    width: 55%;
+    font-size: 17px;
+}
+
+.sd-right-div {
+    color: #fff;
+    padding: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sd-right-div span {
+    text-align: center;
+    font-size: 40px;
+    padding: 12px 10px;
+    margin: 0 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 68px;
+    background-color: #f8bb826e;
+}
+
+.sd-bottom {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+@media screen and (max-width: 960px){
+.about-contain {
+    border-radius: 0;
+    border-top-left-radius: 150px;
+    border-bottom-left-radius: 200px;
+}
+.abt-contain {
+    width: 100%;
+    height: 800px;
+    flex-direction: column;
+}
+
+.sd-left {
+    width: 100%;
+}
+
+.sd-left small {
+    color: #fff;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sd-left p {
+    font-size: 40px;
+    font-weight: 900;
+    color: #000;
+}
+
+.sd-left .sd-left-text {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.sd-right {
+    width: 100%;
+    font-size: 17px;
+}
+
+.sd-right-div {
+    color: #fff;
+    padding: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.sd-right-div span {
+    text-align: center;
+    font-size: 40px;
+    padding: 12px 10px;
+    margin: 0 20px;
+    border-radius: 50%;
+    width: 100px;
+    height: 68px;
+    background-color: #f8bb826e;
+}
+
+.sd-bottom {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+
+}
