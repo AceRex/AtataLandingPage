@@ -37,6 +37,9 @@
 .map-img{
     width: 400px;
 }
+.Art-img{
+    width: 600px;
+}
 .text{
     padding: 20px;
     text-align: center;
@@ -47,7 +50,7 @@
 }
 @media screen and (max-width: 960px){
     .bg-carousel{
-        border-bottom-right-radius: 0px;
+        border-radius: 0px;
     
     }
     .animation-container{
@@ -67,7 +70,10 @@
         width: 300px;
     }
     .map-img{
-        width: 250px;
+        width: 200px;
+    }
+    .Art-img{
+        width: 300px;
     }
     .text{
         padding: 0px;
